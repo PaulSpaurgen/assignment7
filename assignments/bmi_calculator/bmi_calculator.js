@@ -1,6 +1,7 @@
 // This function should return the BMI for a person 
 function BMICalculator(mass, height) {
-    // Write your code here
+    res = (mass)/(height*height);
+    return res;
 }
 
 module.exports = BMICalculator;
